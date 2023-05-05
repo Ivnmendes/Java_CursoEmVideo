@@ -1,5 +1,5 @@
 
-package vetor02;
+package Vetor02;
 
 import java.util.Scanner;
 

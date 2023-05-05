@@ -1,4 +1,4 @@
-package vetor03;
+package Vetor03;
 
 import java.util.Arrays;
 

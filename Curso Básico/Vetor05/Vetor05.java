@@ -1,5 +1,5 @@
 
-package vetor05;
+package Vetor05;
 
 import java.util.Arrays;
 
