@@ -22,3 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+*.xml
+Curso orientado a obejto/Aula06/build/classes/.netbeans_automatic_build
+Curso orientado a obejto/Aula06/build/classes/.netbeans_update_resources
+*.mf
+*.properties
+Curso orientado a obejto/Aula07/build/classes/.netbeans_automatic_build
+Curso orientado a obejto/Aula07/build/classes/.netbeans_update_resources
