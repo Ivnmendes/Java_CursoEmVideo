@@ -109,7 +109,7 @@ public class Lutador{
     
 
     public void apresentar() {
-        System.out.printf("Com voces, o lutador %s, %s, com %d anos, %.2f metros e %.2f KG. Ele pertence a categoria %s e tem %d vitorias, %d derrotas e %d empates", this.getNome(), this.getNacionalidade(), this.getIdade(), this.getAltura(), this.getPeso(), this.getCategoria(), this.getVitorias(), this.getEmpates(), this.getDerrotas());
+        System.out.printf("lutador %s, %s, com %d anos, %.2f metros e %.2f KG. Ele pertence a categoria %s e tem %d vitorias, %d derrotas e %d empates", this.getNome(), this.getNacionalidade(), this.getIdade(), this.getAltura(), this.getPeso(), this.getCategoria(), this.getVitorias(), this.getEmpates(), this.getDerrotas());
     }
 
     public void status() {
@@ -131,12 +131,12 @@ public class Lutador{
     }
 
 
-    public void perderLuta() {
+    public void empatarLuta() {
     this.setEmpates(this.getEmpates() + 1);
     }
 
 
-    public void empatarLuta() {
+    public void perderLuta() {
     this.setDerrotas(this.getDerrotas() + 1);
     }
 }
